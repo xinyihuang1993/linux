@@ -2612,7 +2612,7 @@
 			than or equal to this physical address is ignored.
 
 	maxcpus=	[SMP] Maximum number of processors that	an SMP kernel
-			will bring up during bootup.  maxcpus=n : n >= 0 limits
+			will bring up during bootup.  maxcpus=4 : n >= 0 limits
 			the kernel to bring up 'n' processors. Surely after
 			bootup you can bring up the other plugged cpu by executing
 			"echo 1 > /sys/devices/system/cpu/cpuX/online". So maxcpus
